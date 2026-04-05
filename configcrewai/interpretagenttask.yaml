@@ -1,0 +1,5 @@
+interpretagenttask:
+  description: >
+    Consider the user query {query} and this the response for the query {response}.
+  expected_output:
+    Provide an simple and short response.

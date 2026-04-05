@@ -1,0 +1,5 @@
+sqlagenttask:
+  description: >
+    Consider the user query {query} and transform the query in to a correct and relevant sql query with proper syntax by understanding the schema of the table, the SQL query should be related to the query asked.
+  expected_output:
+    Strictly Provide only relevant sql query which can be used for querying the table the query should be having proper syntax, Strictly don't ptovide any preamble,explanation..
